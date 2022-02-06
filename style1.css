@@ -65,24 +65,25 @@ footer {
   background-color: #aaa;
 }
 
-/* レスポンシブ対応 768px以下の際に適用される設定 */
-＠media screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
   }
 
   main {
-    width: 100%;
+    width: 90%;
     display: block;
   }
 
   .step-box {
     width: 90%;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
   }
 
   .step-box:last-child {
-    margin-bottom: 0;
+    width: 90%;
+    margin: 0 auto 50px auto;
   }
 
   footer {
